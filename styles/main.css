@@ -23,9 +23,22 @@ html{
     /*styles for mobile*/
 
 
-/* nav-introduct styles start */
+/* MOBILE */
 
 /* navigation-mobile */
+.map_mest p{
+font-size: 22px;
+}
+.map_text p{
+font-size:22x;
+}
+.map_info{
+margin-top: 50px;
+padding-left: 10px;
+}
+.map_info p{
+font-size:16px;
+}
 .mobile-menu{
     background-color: rgb(3, 6, 12);
     border-top: 2px solid rgb(161, 157, 157);
@@ -114,10 +127,38 @@ html{
     position: relative;
     z-index: 2;
 }
+.news_pic{
+weight:200px;
+height: 200px;
+}
+.map-responsive{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-responsive iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.wrapper-support{
+
+}
+
 /*изменение стилей поверх бутстрапа*/
 @media all and (min-width: 768px) {
+
+
     .navbar .nav-item{
         padding: 0 1rem;
+    }
+    .news{
+    weight:100%;
+    height:600px;
+    margin-top: 100px;
     }
     .navbar .nav-item .nav-link{
         padding: 0;
@@ -250,12 +291,24 @@ html{
 
 
 /* competensions styles start */
-.wrapper-main{
+.wrapper-main {
 background-color:black;
-
 }
+
 .wrapper-main li{
 color: white;
+}
+.wrapper-grafs{
+background-color:black;
+padding-top: 100px;
+}
+.grafs_text{
+margin-bottom: 50px;
+text-align: center;
+}
+.grafs_text h3{
+  font-weight: 700;
+font-size: 32px;
 }
 .competensions{
     padding-top: 60px;
@@ -303,22 +356,26 @@ color: white;
     position: relative;
     font-weight: 500;
 }
+
 .support h2{
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: white;
 }
 .support h3{
     font-size: 18px;
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 15px;
+    color: white;
 }
 .support p{
     opacity: 0.9;
     font-size: 16px;
     position: relative;
     z-index: 1;
+    color: white;
 }
 .support .item{
     border-left: 3px solid orangered;
@@ -330,6 +387,14 @@ color: white;
 }
 .ekspertiza p{
     opacity: 0.7;
+    color: white;
+}
+.news_text{
+font-size: 10px;
+}
+.news_pic{
+weight: 200px;
+height: 200px;
 }
 .ekspertiza span{
     color: orangered;
@@ -380,7 +445,7 @@ color: white;
 .news{
 weight:100%;
 height:600px;
-margin-top: 100px;
+margin-top: 50px;
 }
 .news_text{
 margin: auto;
@@ -392,10 +457,10 @@ line-height: 2.5;
 display: flex;
 }
 .news .news-pic{
-object-fit: cover;
-weight: 450px;
+object-fit: contain;
+max-width: 450px;
 position: relative;
-height: 550px;
+height: 100%;
 
 }
 .news-pic img{
@@ -490,7 +555,20 @@ height: 50px;
 @media (min-width:768px) {
     .tarif1:hover, .tarif2:hover, .tarif3:hover{
         transform: scale(1.1);
-    }   
+    }
+    .map_mest p{
+font-size: 32px;
+}
+.map_text p{
+font-size:32x;
+}
+.map_info{
+margin-top: 250px;
+padding-left: 10px;
+}
+.map_info p{
+font-size:30px;
+}
 }
 
 /* tarifs styles end */
@@ -682,7 +760,6 @@ height: 50px;
 .faq h2{
     font-weight: 700;
     font-size: 24px;
-
     margin-bottom: 15px;
 }
 .faq h4{
@@ -901,6 +978,19 @@ height: 50px;
     opacity: 1;
 }
 
+.map_mest p{
+font-size: 22px;
+}
+.map_text p{
+font-size:22x;
+}
+.map_info{
+margin-top: 100px;
+padding-left: 10px;
+}
+.map_info p{
+font-size:16px;
+}
 .wrapper-form hr{
     border: 1px solid rgba(256,256,256,.3);
 }
@@ -936,11 +1026,23 @@ footer .links a{
 /* feedback and links styles end */
 
 
-    /*styles for desktop*/
+    /*KOMP*/
 
 @media screen and (min-width: 767px) {
     
-    
+    .map_mest p{
+font-size: 22px;
+}
+.map_text p{
+font-size:22x;
+}
+.map_info{
+margin-top: 250px;
+padding-left: 10px;
+}
+.map_info p{
+font-size:16px;
+}
 
     /* nav-introduct styles start */
     
