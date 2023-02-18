@@ -14,11 +14,11 @@
         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="styles/styleSlider.css"/>
     </head>
-    <body>
+    <body style="background: black;">
         <div class="mobile-menu">
             <div class="logo">
                 <a href="" class="menu-logo-link">
-                    <img src="./img/nav-logo.png" alt="logo" class="menu-logo-pic">
+                    <img src="./img/log2.jpg" alt="logo" class="menu-logo-pic">
                 </a>
             </div>
             <input type="checkbox" id="toggle">
@@ -29,7 +29,7 @@
             <div class="dropdown-div">
                 <a href="#" class="nav-link">Проекты</a>
                 <a href="#" class="nav-link dropdown-toggle">Цель</a>
-                <a href="#" class="nav-link m">Инвестиции</a>
+                <a href="#cases" class="nav-link m">Инвестиции</a>
                 <a href="#" class="nav-link m">Партнеры</a>
                 <a href = "#" class = "nav-link m">Доходы</a>
                 <a href = "#" class = "nav-link m">оптимизация скорости</a>
@@ -39,7 +39,7 @@
                 <a href="#" class="nav-link dropdown-toggle">О нас</a>
                 <a href = "#" class = "nav-link m">Команда</a>
                 <a href = "#" class = "nav-link m">Отзывы</a>
-                <a href = "#" class = "nav-link m">Связь</a>
+                <a href = "#sv" class = "nav-link m">Связь</a>
                 <a href="#" class="nav-link">Контакты</a>
                 <a href="#" class="nav-link">Вход/Регистрация</a>
             </div>
@@ -55,7 +55,7 @@
                     <div class="navbar">
                         <div class="navbar-logo">
                             <a href="" class="nav-logo-link">
-                                <img src="./img/logo_2.png" alt="logo" class="nav-logo-pic">
+                                <img src="./img/log2.jpg" alt="logo" class="nav-logo-pic" weight="150" height="50">
                             </a>
                         </div>
                         <nav>
@@ -68,7 +68,7 @@
                                         <a href="#" class="nav-link dropdown-toggle" id="dropdownMenu1Link" data-bs-toggle="dropdown" aria-expanded="false">Цель</a>
                                         <ul class = "dropdown-menu" aria-labelledby="dropdownMenu1Link">
                                             <li class = "dropdown-item">
-                                                <a href = "#" class = "nav-link">Инвестиции</a>
+                                                <a href = "#cases" class = "nav-link">Инвестиции</a>
                                             </li>
                                             <li class = "dropdown-item">
                                                 <a href = "#" class = "nav-link">Партнеры</a>
@@ -94,7 +94,7 @@
                                                 <a href = "#" class = "nav-link">Отзывы</a>
                                             </li>
                                             <li class = "dropdown-item">
-                                                <a href = "#" class = "nav-link">Связь</a>
+                                                <a href = "#sv" class = "nav-link">Связь</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -126,7 +126,7 @@
                                 </div>
                                 <div class="row text-center text-md-start item3">
                                     <div class="tarifs-but">
-                                        <button onClick='location.href="#tarifs"'>
+                                        <button onClick='location.href="#form"'>
                                              Вход
                                         </button>
                                     </div>
@@ -282,7 +282,7 @@
 
         <div class="wrapper-main">
             <div class="container">
-                <div class="cases" style="color: white">
+                <div class="cases" style="color: white" id="cases">
                     <div class="row text-center" style="color: white">
                         <h2>Популярные инвестиции</h2>
                     </div>
@@ -331,6 +331,28 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+       <div class="wrapper-grafs" style="color:white">
+            <div class="container">
+                <div class="grafs_text">
+                     <h2>Изменение цен недвижимости</h2>
+                </div>
+                <div class="grafs_osn">
+                <div class="row text-center">
+                      <div class="col-12 col-sm-5 col-md-6 mb-4">
+                       <div class="grafs1">
+                                    <img src="img/grafs1.jpg" alt="graf1" width="350" height="250">
+                                </div>
+                      </div>
+                      <div class="col-12 col-sm-5 col-md-6  mb-4">
+                       <div class="grafs2">
+                                    <img src="img/grafs2.jpg" alt="graf2" width="350" height="250">
+                                </div>
+                      </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -384,20 +406,28 @@
                 </div>
             </div>
         </div>
+
         <div class="wrapper-place">
              <div class="container">
-                  <div class="row text-center">
-                        <div class="col-6 col-sm-6 col-md-4 mb-4">
+                  <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 mb-4" style="float:right">
+                            <div class="map-responsive">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2820.2168048030435!2d38.978946450833014!3d45.02052417085674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f04fc7cffeba47%3A0xcb25fc1b967e156a!2z0YPQuy4g0KHRg9Cy0L7RgNC-0LLQsCwgOTEsINCa0YDQsNGB0L3QvtC00LDRgCwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksIDM1MDAwMA!5e0!3m2!1sru!2sru!4v1676679904604!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                  </div>
-                      </div>
-                  <div class="row text-center">
-                        <div class="col-4 col-sm-6 col-md-4 mb-4" >
-                            <div class="map" style="color: white">
-                            <p>Наше местоположение</p>
+                            </div>
+                        <div class="col-12 col-sm-12 col-md-6 mb-3" >
+                            <div class="map">
+                            <div class="map_mest" style="color: white">
+                            <p align="right"><b>Наше местоположение</b></p>
+                            </div>
+                         <div class="map_text" style="color: white">
+                            <p align="right">Наш главный офис располагается по следующему адрессу: г.Краснодар, ул.Суворова, 91</p>
                                 </div>
+                                <div class="map_info" style="color: white">
+                            <p align="right">Ниже приведена контактная информация и форма для входа/регистрации:</p>
+                                </div>
+                            </div>
                  </div>
-                      </div>
              </div>
         </div>
         <div class="wrapper-form">
@@ -407,18 +437,18 @@
                         <div class="col-12 col-md-6">
                             <div class="row">
                                 <div class="col-12 text-center text-md-start">
-                                    <h2>Зарегистрируйтесь/войдите</h2>
+                                    <h2>Обратная связь</h2>
                                 </div>
                                 <div class="col-12">
                                     <p>Для начала работы с инвестициями необходимо зайти на сайт под своей учетной записью.
                                     В случае ее отсутвия вы в любой момент сможете зарегистрироваться, заполнив несколько полей. </p>
                                     <div class="elem">
                                         <div class="number">
-                                            <h3><img src="img/feedback-icon1.png" alt="icon" class="icon"> 8 800 222-26-73</h3>
+                                            <h3><img src="img/feedback-icon1.png" alt="icon" class="icon"> 8 999 632-43-39</h3>
                                         </div>
                                         <div class="email">
                                             <img src="img/feedback-icon2.png" alt="icon" class="icon">
-                                            <a href="">info@drupal-coder.ru</a>
+                                            <a href="">info@admin_1234.ru</a>
                                         </div>
                                     </div>
                                 </div>
@@ -457,7 +487,7 @@
             <hr>
             <div class="container">
                 <footer>
-                    <div class="links">
+                    <div class="links" id="sv">
                         <div class="link">
                             <a href="#" class="f">
                                 <img src="img/facebook.png" alt="pic" class="pic">
@@ -482,6 +512,7 @@
                     <p>Проект ООО "Инвест", Краснодар, Россия.<br> Данный сайт является одним из лучших для инвестиций в сфере недвижимости.</p>
                 </footer>
             </div>
+        </div>
         </div>
         <script src="javascript/jquery-3.4.1.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
